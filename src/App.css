@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(59, 59, 59);
+}
+
+.App {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    flex-direction: column;
+    padding: 20px;
+    margin-top: 120px;
+}
