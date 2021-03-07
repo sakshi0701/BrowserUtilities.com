@@ -1,5 +1,5 @@
 .footer {
-    height: 15vh;
+    height: 10vh;
     width: 100%;
     margin-top: 45px;
     border-top: 2px solid white;
@@ -8,4 +8,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 22px;
+    box-sizing: border-box;
+
   }

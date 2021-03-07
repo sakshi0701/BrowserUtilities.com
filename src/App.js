@@ -4,6 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import PasswordGen from './password generator/PasswordGen';
 import QRCode from './QR Code/QRCode';
 import Footer from './components/footer/Footer'
+import Speed from './Speed/Speed'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <div className="App">
       <PasswordGen />
       <QRCode />
+      <Speed />
     </div>
     <Footer />
     </>
