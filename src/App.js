@@ -10,14 +10,14 @@ import Footer from './components/footer/Footer';
 function App() {
   return (
     <>
-    <Navbar />
-    <div className="App">
-      <PasswordGen />
-      <QRCode />
-      <Url />
-      {/* <Speed /> */}
-    </div>
-    <Footer />
+      <Navbar />
+      <div className="App">
+        <PasswordGen />
+        <QRCode />
+        <Url />
+        {/* <Speed /> */}
+      </div>
+      <Footer />
     </>
   );
 }
