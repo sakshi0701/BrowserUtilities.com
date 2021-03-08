@@ -46,9 +46,9 @@ const QRCode = () => {
 
     return (
         <div>
-            <div className="container">
+            <div className="contain">
                 <div className="card">
-                    <h2>Generate and Download QR Code</h2>
+                    <h4>Generate and Download QR Code</h4>
                     <div className="card-content">
                         <div className="box1">
                             <input onChange={(e) => setText(e.target.value)} classname="link-input" placeholder="Enter link here" />

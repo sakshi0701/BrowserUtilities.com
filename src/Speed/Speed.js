@@ -28,9 +28,7 @@ const Speed = () => {
 
     return (
         <div className="speed">
-            <div className="logo">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlFxqoKAmAePPK40wrOAo6zROOkBhpiAcQJA&usqp=CAU" />
-            </div>
+            <h4>Internet Speed</h4>
             <div className="body">
                 <h3 className="heading">Your Internet Speed is </h3>
                 <div className="top-section">

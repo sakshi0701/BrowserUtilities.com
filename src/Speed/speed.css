@@ -4,17 +4,21 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    padding: 50px 0px;
     box-sizing: border-box;
-    width: 100%;
-    height: 90vh;
-    border: 2px solid red;
-    background: white;
+    width: 70%;
+    height: 70vh;
+    background: cornflowerblue;
+    margin-top: 50px;
 }
 
-.logo {
-    height: 163px;
-    width: 163px;
+.speed h4 {
+    background: darkblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 30px;
 }
 
 .body {
@@ -53,7 +57,7 @@
     height: 65px;
     width: 65px;
     border-radius: 50%;
-    border: 2px solid forestgreen;
+    border: 2px solid gray;
 }
 
 .icon-block {

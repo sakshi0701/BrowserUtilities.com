@@ -102,11 +102,9 @@ const PasswordGen = () => {
 
     return (
         <div className="password">
+            <h4>Password Generator</h4>
             <div className="container">
                 <div className="generator">
-                    <h2 className="header">
-                        Password Generator
-                    </h2>
                     <div className="generate-pass">
                         <h3>{password}</h3>
                         <button onClick={handleCopyPassword} className="cpy-btn">
@@ -115,7 +113,7 @@ const PasswordGen = () => {
                     </div>
                     <div className="form-group">
                         <label htmlFor="password-length">Password length</label>
-                        <input defaultValue={passwordLength} onChange={(e) => setPasswordLength(e.target.value)} type="number" id="password-length" name="password-length" max="20" min="5" />
+                        <input defaultValue={passwordLength} onChange={(e) => setPasswordLength(e.target.value)} type="number" id="password-length" name="password-length" max="20" min="5"/>
                     </div>
                     <div className="form-group">
                         <label htmlFor="uppercase-letters">Include Upper case Letters</label>
@@ -133,9 +131,11 @@ const PasswordGen = () => {
                         <label htmlFor="include-symbols">Include symbols</label>
                         <input type="checkbox" checked={includeSymbols} onChange={(e) => setIncludeSymbols(e.target.checked)} id="include-symbols" name="include-symbols" max="20" min="5" />
                     </div>
-                    <button onClick={handleGeneratePassword} className="generate-pass">
-                        Generate Password
-                    </button>
+                    <div className="submit-button">
+                        <button onClick={handleGeneratePassword}>
+                            Generate Password
+                        </button>
+                    </div>
                     <ToastContainer
                         position="bottom-left"
                         autoClose={5000}

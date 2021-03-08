@@ -10,3 +10,8 @@
     align-items: center;
     box-sizing: border-box;
   }
+
+.footer a {
+  cursor: pointer;
+  font-size: smaller;
+}

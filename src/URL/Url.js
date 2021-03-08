@@ -5,7 +5,7 @@ import './url.css';
 const Url = () => {
     return (
         <div className="url">
-            <h3>URL Shortener</h3>
+            <h4>URL Shortener</h4>
             <Search />
         </div>
     )
