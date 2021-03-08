@@ -4,7 +4,7 @@ import './nav.css';
 const Navbar = () => {
     return (
         <div className="navbar">
-            BrowserUtilities.com
+            <div className="nav-title">BrowserUtilities.com</div>
         </div>
     )
 }

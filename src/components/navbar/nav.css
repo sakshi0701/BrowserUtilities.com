@@ -1,9 +1,9 @@
 .navbar {
     display: flex;
     align-items: center;
-    padding: 30px;
-    height: 40px;
-    width: 99%;
+    margin-top: 0;
+    height: 90px;
+    width: 100%;
     background: rgb(0, 1, 85);
     color: white;
     border-bottom: 2px solid white;
@@ -12,4 +12,8 @@
     top: 0;
     position: fixed;
     z-index: 10;
+}
+
+.nav-title {
+    padding: 10px 30px;
 }
