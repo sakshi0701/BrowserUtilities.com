@@ -1,12 +1,17 @@
 .url {
     height: 350px;
-    width: 70%;
+    min-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background: cornflowerblue;
     font-weight: bold;
+}
+
+.url span::selection {
+    background: rgb(43, 255, 0);
+    color: rgb(0, 100, 139);
 }
 
 .url h4 {

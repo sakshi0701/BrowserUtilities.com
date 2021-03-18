@@ -7,6 +7,7 @@ import './speed.css';
 
 const Speed = () => {
 
+    // eslint-disable-next-line
     const [error, setError] = useState(null);
     const [speed, setSpeed] = useState(null);
 

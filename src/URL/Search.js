@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import shrtcode from './api/shrtcode';
 
+// eslint-disable-next-line
 const HTTP_URL_VALIDATOR_REGEX = /(http(s)?:\/\/.)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)/g;
 
 const Search = () => {
@@ -51,7 +52,7 @@ const Search = () => {
             )}
             {Short && (
                 <div>
-                    The Short Link: {Short}
+                    <span>The Short Link: {Short}</span>
                 </div>
             )}
         </>

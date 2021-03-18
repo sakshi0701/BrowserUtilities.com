@@ -4,7 +4,7 @@ import Navbar from './components/navbar/Navbar'
 import PasswordGen from './password generator/PasswordGen';
 import QRCode from './QR Code/QRCode';
 import Url from './URL/Url';
-import Speed from './Speed/Speed';
+// import Speed from './Speed/Speed';
 import Footer from './components/footer/Footer';
 
 function App() {

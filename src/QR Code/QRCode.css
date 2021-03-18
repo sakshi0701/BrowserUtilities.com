@@ -9,6 +9,7 @@
 .contain h4 {
     background: darkblue;
     width: 100%;
+    margin-top: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,10 +21,10 @@
     display: flex;
     justify-content: space-around;
     flex-direction: column;
+    flex-wrap: wrap;
     background: cornflowerblue;
-    height: 400px;
+    height: auto;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .card-content {

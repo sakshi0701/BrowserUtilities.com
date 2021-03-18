@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className="footer">
             © 2020-2021 BrowserUtilities.com
-            <a onClick={toggleUp}> Back to top</a>
+            <p onClick={toggleUp}>Back to top</p>
         </div>
     )
 }
