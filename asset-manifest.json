@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/BrowserUtilities.com/static/css/main.650841d6.chunk.css",
+    "main.js": "/BrowserUtilities.com/static/js/main.54997e1a.chunk.js",
+    "main.js.map": "/BrowserUtilities.com/static/js/main.54997e1a.chunk.js.map",
+    "runtime-main.js": "/BrowserUtilities.com/static/js/runtime-main.5110364f.js",
+    "runtime-main.js.map": "/BrowserUtilities.com/static/js/runtime-main.5110364f.js.map",
+    "static/css/2.ffda3d49.chunk.css": "/BrowserUtilities.com/static/css/2.ffda3d49.chunk.css",
+    "static/js/2.4f0938d3.chunk.js": "/BrowserUtilities.com/static/js/2.4f0938d3.chunk.js",
+    "static/js/2.4f0938d3.chunk.js.map": "/BrowserUtilities.com/static/js/2.4f0938d3.chunk.js.map",
+    "index.html": "/BrowserUtilities.com/index.html",
+    "static/css/2.ffda3d49.chunk.css.map": "/BrowserUtilities.com/static/css/2.ffda3d49.chunk.css.map",
+    "static/css/main.650841d6.chunk.css.map": "/BrowserUtilities.com/static/css/main.650841d6.chunk.css.map",
+    "static/js/2.4f0938d3.chunk.js.LICENSE.txt": "/BrowserUtilities.com/static/js/2.4f0938d3.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5110364f.js",
+    "static/css/2.ffda3d49.chunk.css",
+    "static/js/2.4f0938d3.chunk.js",
+    "static/css/main.650841d6.chunk.css",
+    "static/js/main.54997e1a.chunk.js"
+  ]
+}
