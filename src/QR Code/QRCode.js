@@ -86,6 +86,3 @@ const QRCode = () => {
 }
 
 export default QRCode;
-
-
-// 14:03
