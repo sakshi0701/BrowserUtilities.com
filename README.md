@@ -1,8 +1,8 @@
 # BrowserUtilities.com
 
+This is a browser utilities website that helps a user to scan QR codes, generate QR Codes, generate passwords, and shorten URLs.
 
-
-[Visit Website](https://let-us-code.herokuapp.com/login "Welcome to BrowserUtilities.com")
+[Visit Website](https://sakshi0701.github.io/BrowserUtilities.com/ "Welcome to BrowserUtilities.com")
 
 ## To run the application:
 
